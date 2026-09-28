@@ -6,10 +6,35 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>Registration From </h1>
     <form action="/action">
-        <label for="feedback">Please Give Your valuable feedback :- </label>
-        <textarea name="feedback" id="feedback" rows="5" cols="100" placeholder="Write Your feedback"></textarea>
-        <button>Submit</button>
+        <div>
+            <input type="text" placeholder="First Name" name="fname">
+            <input type="text" placeholder="Last Name" name="lname">
+        </div>
+
+
+        <div>
+            <label for="gender">Please select gender</label>
+            <select name="gender" id="gender">
+                <option name="Male" id="gender" value="Male"> Male</option>
+                <option name="female" id="gender" value="female"> female</option>
+                <option name="other" id="gender" value="other"> other </option>
+            </select>
+        </div>
+
+        <div>
+            <label for="terms">Do you agree to all terms of service ? </label>
+            <input type="checkbox" id="terms">
+            <label for="terms">Yes i agree </label>
+        </div>
+        <button type="submit">Register</button>
+
+        <div>
+            <label for="feedback"> Enter Your Feedback :- </label>
+            <textarea name="feedback" id="feedback" rows="5" cols="40" placeholder="Enter Your feedback ..."></textarea>
+        </div>
     </form>
+
 </body>
 </html>
