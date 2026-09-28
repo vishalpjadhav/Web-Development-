@@ -1,0 +1,5 @@
+mdn is the best resource for development 
+its a free documentation for learning 
+
+
+link :- https://developer.mozilla.org/en-US/
