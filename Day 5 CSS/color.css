@@ -1,0 +1,28 @@
+h1 {
+    color: orange;
+
+}
+P{
+    color: crimson;
+
+}
+
+button {
+    color : gold;
+    background-color : rgb(43, 43, 253);
+}
+
+*{
+    background-color: lightyellow;
+}
+
+h1{
+    background-color: blueviolet;
+}
+p{
+    background-color: cornsilk;
+}
+button  {
+    background-color: black ;
+    background: crimson;
+}
