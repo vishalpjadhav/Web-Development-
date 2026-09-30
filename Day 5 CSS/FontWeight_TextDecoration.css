@@ -4,15 +4,18 @@
 p {
     color: brown;
     font-weight: bolder;
-    text-decoration: overline;
+    text-decoration:dotted red underline;
 }
 h2{
     color: teal;
     font-weight: bold;
-    text-decoration: underline;
+    text-decoration: wavy red underline;
 }
 h1{
     color: red;
     text-align: center;
     text-decoration: line-through;
+}
+a {
+    text-decoration: none;
 }
