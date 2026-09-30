@@ -3,7 +3,7 @@ h1 {
     color: blue;
     color: magenta;
     color: antiquewhite; */
-    color: rgb(250,20,180);
+    color: rgb(255,20,180);
 }
 h2 {
     color : rgb(100 ,0,150);
@@ -12,5 +12,5 @@ h3  {
     color : rgb(0,0,0);
 }
 h4{
-    color: rgb(0,0,250);
+    color: rgb(120,0,120);
 }
