@@ -1,0 +1,19 @@
+*{
+    color: #ff9d00;
+}
+h1 {    
+    width: 50%;
+    text-align: justify;
+    color: brown;
+}
+p {
+    text-align: justify;
+    width: 50%;
+}
+h2 {
+    text-align: justify; 
+    color: rgba(255, 100, 120, 0.5)
+}
+h3 {
+    text-align: right;
+}
