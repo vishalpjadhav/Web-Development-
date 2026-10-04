@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+    color: #fb5607;
+}
+
+#pass,
+#user {
+    text-align: center;
+    padding: 5px;
+    background-color: aliceblue;
+    color: white;
+    margin-top: 15px;
+    margin-left: 30px;
+    border: 2px solid #8338ec;
+    border-radius: 13px;
+    width: 70%;
+}
+
+button {
+    text-align: center;
+    width: 40%;
+    margin-top: 20px;
+    margin-left: 70px;
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 15px;
+}
+
+div {
+    border: 2px solid #ff006e;
+    width: 300px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
