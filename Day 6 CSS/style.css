@@ -1,25 +1,29 @@
 * {
-    font-family: 'Courier New',arial;
+    font-family: 'Courier New', arial;
     /* font-family: arial;
     font-family: arial black;
     text-decoration: none;
     text-decoration: underline gray; */
 }
+
 /*  Element Selector  */
 
 h3 {
     color: purple;
 }
-h1 , h3 {
+
+h1,
+h3 {
     color: #b92b27;
 }
 
 /*  id selector  */
 
-#login{
+#login {
     background-color: white;
 
 }
+
 #signup {
     background-color: #b92b27;
     color: white;
@@ -31,6 +35,7 @@ h1 , h3 {
 .follow {
     color: #b92b27;
 }
+
 .upvote {
     background-color: green;
     color: aliceblue;
@@ -38,7 +43,7 @@ h1 , h3 {
 
 /*  practice question */
 div[id="myId"] p {
-    color:  green;
+    color: green;
 
 }
 
@@ -49,27 +54,29 @@ p a {
 
 /*  Adjacent Sibling combinators  */
 
-p + h3 {
+p+h3 {
     text-decoration: underline;
 }
-.upvote + button {
+
+.upvote+button {
     background-color: cornflowerblue;
     color: darkblue;
 }
 
 /*  Child Combinator */
-div > input {
+div>input {
     background-color: coral;
     color: aliceblue;
 }
 
 /*  Attribute selector */
 
-input[type="text"]{
+input[type="text"] {
     background-color: #b92b27;
     color: aqua;
 }
-input[type="password"]{
+
+input[type="password"] {
     background-color: green;
     color: antiquewhite;
 }
@@ -77,45 +84,44 @@ input[type="password"]{
 /*  Pseudo class  */
 button:hover {
     background-color: black;
-    color : green ;
+    color: green;
 }
+
 h3:hover {
     text-decoration: none;
 }
+
 button:active {
     background-color: pink;
 }
 
-p:active{
+p:active {
     font-weight: bold;
     color: green;
 }
 
-input[type="radio"]:checked + label {
+input[type="radio"]:checked+label {
     color: red;
     font-weight: bold;
 }
 
 /*  nth-of-type pseudo class */
-div:nth-child(2){
+div:nth-child(2) {
     background-color: #b92b27;
 }
 
-
-
-
-
 /* Pseudo Element */
-
-h1::first-letter{
+h1::first-letter {
     color: yellow;
     background-color: #b92b27;
 
 }
-p::first-line{
+
+p::first-line {
     color: blue;
     background-color: antiquewhite;
 }
+
 p::selection {
     background-color: greenyellow;
 }
