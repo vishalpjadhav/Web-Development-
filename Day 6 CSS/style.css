@@ -63,7 +63,6 @@ div > input {
     color: aliceblue;
 }
 
-
 /*  Attribute selector */
 
 input[type="text"]{
@@ -73,4 +72,31 @@ input[type="text"]{
 input[type="password"]{
     background-color: green;
     color: antiquewhite;
+}
+
+/*  Pseudo class  */
+button:hover {
+    background-color: black;
+    color : green ;
+}
+h3:hover {
+    text-decoration: none;
+}
+button:active {
+    background-color: pink;
+}
+
+p:active{
+    font-weight: bold;
+    color: green;
+}
+
+input[type="radio"]:checked + label {
+    color: red;
+    font-weight: bold;
+}
+
+/*  nth-of-type pseudo class */
+div:nth-child(2){
+    background-color: #b92b27;
 }
