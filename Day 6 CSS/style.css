@@ -100,3 +100,22 @@ input[type="radio"]:checked + label {
 div:nth-child(2){
     background-color: #b92b27;
 }
+
+
+
+
+
+/* Pseudo Element */
+
+h1::first-letter{
+    color: yellow;
+    background-color: #b92b27;
+
+}
+p::first-line{
+    color: blue;
+    background-color: antiquewhite;
+}
+p::selection {
+    background-color: greenyellow;
+}
