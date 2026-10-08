@@ -1,4 +1,42 @@
 h1 {
-    height: 200px;
+    height: 100px;
+    width : 500px;
     background-color: red;
 }
+
+div {
+    width : 500px;
+    height : 200px;
+    background-color: green;
+    border-style: solid;
+    border-color: gold;
+    border-top: solid blue 8px;
+    border-right: dashed yellow 6px;
+    border-bottom:  dotted black 5px;
+}
+#divv{
+    background-color: red;
+    height: 100px;
+    width: 200px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border-left: dashed;
+}
+h1 {
+    border-color: green;
+    border-style: dashed;
+    border-width: 10px;
+
+    /*  Border Shorthand */
+    border: solid blue 5px;
+    border-left: dashed;
+}
+
+
+/*  Border radius  */
+#divv{
+    border-radius: 50px;
+    border: p;
+}
+/* padding  */
