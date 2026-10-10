@@ -1,0 +1,32 @@
+/* div {
+    background-color: orange;
+    height: 40px;
+    border: 2px solid black;
+    width: 50%;
+    margin: 10px;
+
+} */
+ 
+
+#outer {
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#inner {
+    background-color: red;
+    height: 70%;
+    width: 70%;
+}
+#inner2 {
+    background-color: rgb(255, 208, 0);
+    height: 70%;
+    width: 70%;
+}
+#inner3 {
+    background-color: rgb(255, 0, 136);
+    height: 70%;
+    width: 70%;
+}
