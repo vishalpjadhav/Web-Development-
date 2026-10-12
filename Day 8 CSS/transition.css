@@ -1,0 +1,26 @@
+*{
+    margin: 10px;
+}
+#first {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    transition: 2s;
+}
+#second{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+
+#first:hover {
+    background-color: red;
+    border-radius: 50%;
+}
+
+#second:hover {
+    background-color: green;
+    border-radius: 50%;
+    
+}
