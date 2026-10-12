@@ -1,0 +1,27 @@
+h3 {
+    color: aliceblue;
+    font-size: 1.8rem;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: orangered;
+    transition: 1s;
+    transition-delay: 0.5s;
+    transition-timing-function:  ease-in-out;
+    /* transition-timing-function:  steps(6,end); */
+}
+
+div:hover {
+    background-color: darkblue;
+    width: 400px;
+    height: 2.2rem;
+    border-radius: 10px;
+}
+
+h3:hover {
+    letter-spacing: 10px;
+}
