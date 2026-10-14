@@ -1,0 +1,29 @@
+#one{
+    height: 200px;
+    width: 400px;
+    margin: 150px auto;
+    background-color: orangered;
+    box-shadow: 8px 8px 50px black;
+    border-radius: 10px;
+}
+#two{
+    height: 200px;
+    width: 400px;
+    background-color: teal;
+    margin: 0 auto;
+    box-shadow: 5px 5px 25px rgb(0, 0, 0);
+    border-radius: 1rem;
+    box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 1);
+}
+#Byte {
+    text-align: center;
+    padding-top: 80px;
+    color: aliceblue;
+    text-shadow: 2px 2px 15px black;
+}
+#name {
+    color: aliceblue;
+    text-align: center;
+    padding-top: 80px;
+    text-shadow: 2px 2px 12px black;
+}
