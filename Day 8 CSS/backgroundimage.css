@@ -1,0 +1,9 @@
+#one {
+    height: 420px;
+    width: 750px;
+    background-color: red;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-image: url("wallpaperflare.com_wallpaper.jpg");
+    background-size: contain;
+}
