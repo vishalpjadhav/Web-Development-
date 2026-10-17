@@ -15,12 +15,14 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    justify-content: space-between;
+    justify-content: flex-start;
+
+    flex-wrap: wrap;
 }
 
 .container div,
 .container2 div {
-    height: 100px;
+    height: 200px;
     width: 100px;
 }
 
@@ -30,9 +32,10 @@ body {
     border: 5px solid black;
     margin: auto;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row;
     justify-content: flex-start;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+
 }
 
 #first {
