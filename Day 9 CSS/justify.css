@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 0;
+    padding: 10px;
+}
+.container {
+    height: 800px;
+    width: 40%;
+    border: 5px solid black;
+    margin: 10px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-content: space-between;
+}
+.container div , .container2 div{
+    height: 100px;
+    width: 100px;
+}
+.container2 {
+    height: 800px;
+    width: 40%;
+    border: 5px solid black;
+    margin: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    justify-content: space-evenly;
+}
+#first{ background-color: red;}
+#second{ background-color: green;}
+#third{ background-color: blue;}
+#four{ background-color: orange;}
+#five{ background-color: yellow;}
+#six{ background-color: darkblue;}
