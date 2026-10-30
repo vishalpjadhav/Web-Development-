@@ -1,6 +1,6 @@
-div{
+.outer{
     height: 100px;
-    width: 100px;
+    width: 200px;
     background-color: brown;
     /* animation-name: DivAnimation;
     animation-duration: 5s;
@@ -8,15 +8,42 @@ div{
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
     animation-delay: 2s; */
-    animation: DivAnimation 10s ease-in 1s infinite normal ;
+    animation: DivAnimation 4s ease-in 0s infinite normal ;
 }
 
 @keyframes DivAnimation {
-    from {
+    /* from {
         height: 100px;
         width: 100px;
     } to {
         width: 400px;
         background-color: green;
-    }
+    } */
+     0%{
+        background-color: red;
+     }
+     25%{
+        background-color: green;
+     }
+     50%{
+        background-color: blue;
+     }
+     100%{
+        background-color: yellow;
+     }
+}
+#inner{
+   height: 100px;
+   width: 100px;
+   background-color: red;
+
+}
+@media (width:400px) {
+   h1{
+      color: red;
+   }
+   #inner{
+      width: 400px;
+      background-color: aqua;
+   }
 }
