@@ -1,0 +1,98 @@
+/* Body Background */
+body {
+    position: relative;
+    min-height: 100vh;
+    background: transparent;
+}
+
+/* Background Image with Fade Opacity */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background-image: url("big2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    opacity: 0.25;
+    z-index: -1;
+    pointer-events: none;
+}
+
+/* Product Container */
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    max-width: 1400px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* Glass Card */
+.product-container .card {
+    max-width: 100%;
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 16px;
+    overflow: hidden;
+
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+
+    transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.product-container .card:hover {
+    transform: translateY(-8px);
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.3);
+}
+
+/* Product Image */
+.product-container .card-img-top {
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+    padding: 15px;
+}
+
+/* Card Content */
+.product-container .card-body {
+    padding: 18px;
+    color: white;
+}
+
+.product-container .card-title {
+    font-size: 19px;
+    margin-bottom: 12px;
+    color: white;
+}
+
+.product-container .card-text {
+    font-size: 14px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.8);
+    min-height: 90px;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .product-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .product-container {
+        grid-template-columns: 1fr;
+    }
+}
